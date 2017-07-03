@@ -1,0 +1,32 @@
+search-result-item, .suggestion-container {
+    border-top: 1px dotted #E4E4E2;
+    padding: 8px 10px 7px;
+    
+}
+
+pure-g {
+    letter-spacing: -.31em;
+    text-rendering: optimizespeed;
+    font-family: FreeSans, Arimo, "Droid Sans", Helvetica, Arial, sans-serif;
+    -webkit-flex-flow: row wrap;
+    display: -ms-flexbox;
+    -ms-flex-flow: row wrap;
+    -ms-align-content: flex-start;
+    -webkit-align-content: flex-start;
+    align-content: flex-start;
+    
+}
+
+.package-gold {
+    border: 1px solid goldenrod;
+    background-color: #fdf9f2;
+    width: 33.33333333%;
+   
+    
+}
+
+@media screen and (min-width: 768px)
+style.css:7806
+.search-result-item {
+    padding: 15px;
+}

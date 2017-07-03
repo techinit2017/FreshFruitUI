@@ -8,9 +8,13 @@
 
 .searchinput {
     color: #555;
-    margin-left: 70px;
+    margin-left: 100px;
     margin-top: 12px;
-    width: 254px;  
+    width: 350px;  
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    height:28px;
 }
 
 .searchsubmit {
