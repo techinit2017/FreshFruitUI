@@ -4,29 +4,29 @@ search-result-item, .suggestion-container {
     
 }
 
-pure-g {
-    letter-spacing: -.31em;
-    text-rendering: optimizespeed;
-    font-family: FreeSans, Arimo, "Droid Sans", Helvetica, Arial, sans-serif;
-    -webkit-flex-flow: row wrap;
-    display: -ms-flexbox;
-    -ms-flex-flow: row wrap;
-    -ms-align-content: flex-start;
-    -webkit-align-content: flex-start;
-    align-content: flex-start;
-    
-}
+
 
 .package-gold {
     border: 1px solid goldenrod;
     background-color: #fdf9f2;
-    width: 33.33333333%;
-   
-    
+    width: 65.33333333%;
+    margin-left: 350px;
+    margin-top: -100px;  
 }
 
-@media screen and (min-width: 768px)
-style.css:7806
-.search-result-item {
-    padding: 15px;
+
+row {
+    margin: 0 auto;
+    min-width: none;
+    margin-left: 200px;
+}
+
+
+.dropdown {
+    border: 0;
+    line-height: normal;
+    font-weight: lighter;
+    background-color: transparent;
+    
+  
 }

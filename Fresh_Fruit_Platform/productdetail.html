@@ -32,16 +32,16 @@
 						class="icon-bar"></span> <span class="icon-bar"></span> <span
 						class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">Home</a>
+				<a class="navbar-brand" href="index.html">Home</a>
 			</div>
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">Contact Us <span
+					<li class="active"><a href="#" class="navbar-brand">Contact Us <span
 							class="sr-only">(current)</span></a></li>
-					<li><a href="#">About Us</a></li>
-					<li><a href="#">FAQ's</a></li>
+					<li><a href="aboutus.html" class="navbar-brand">About Us</a></li>
+					<li><a href="faqs.html" class="navbar-brand">FAQ's</a></li>
 
 				</ul>
 
@@ -54,32 +54,109 @@
 	</nav>
 
 	<hr>
-	<h5 class="text-center">Search Result</h5>
+	<h3 class="text-center">Search Result</h3>
 	<div class="text-center">
 		<form role="search">
 			<input type="text" class="searchinput" placeholder="Product Search">
-			<button type="submit">Submit</button>
+			<button type="submit" formaction="productdetail.html">Submit</button>
 		</form>
 	</div>
 	<hr>
-<div class="search-result-item pure-g package-gold" style="margin-right:100px;">
-			<div class="caption">
-				<h3>Apple</h3>
-				<p></p>
-			</div>
+	<div class="container well">
+       <h4>Select State</h4>
+		<select class="state" name="state" class="form-control input-md"
+			style="background: white;">
+			<option value="Select State">Select State</option>
+			<option value="Andaman and Nicobar Islands">Andaman and
+				Nicobar Islands</option>
+			<option value="Andhra Pradesh">Andhra Pradesh</option>
+			<option value="Arunachal Pradesh">Arunachal Pradesh</option>
+			<option value="Assam">Assam</option>
+			<option value="Bihar">Bihar</option>
+		</select> 
+		<br> <br>
+		<h4>Select Country</h4>
+		<select id="country" name="country" 
+			style="background: white;">
+			<option value="afghanistan">Afghanistan</option>
+			<option value="albania">Albania</option>
+			<option value="algeria">Algeria</option>
+			<option value="american samoa">American Samoa</option>
+			<option value="andorra">Andorra</option>
+			<option value="angola">Angola</option>
+			<option value="Anguilla">Anguilla</option>
+			<option value="antarctica">Antarctica</option>
+			<option value="antigua and barbuda">Antigua and Barbuda</option>
+			<option value="argentina">Argentina</option>
+			<option value="armenia">Armenia</option>
+			
+		</select>
+		<br> <br>
+		<h4>Select Variety </h4>
+		<select id="country" name="country" 
+			style="background: white;">	
+			<option value="afghanistan">Royal Delicious</option>
+			<option value="albania">California Grape</option>
+			<option value="algeria">Apple Fuji</option>
+			<option value="american samoa">Apple Washington</option>
+			<option value="andorra">Queen</option>
+		</select>
+		<div class="package-gold">
+			<h3>Apple</h3>
 			<div class="thumbnail">
 				<img src="images/apple.jpg" alt="Thumbnail Image 1"
-					class="img-responsive"> supplier of Royal Delicious apple
+					class="img-responsive">
+				<h5>supplier of Royal Delicious apple</h5>
 				<ul>
 					<li>Price: Negotiable</li>
 					<li>MOQ: 500kg</li>
 					<li>Supply Ablility: 15tonnes</li>
 					<li>variety: Royal Delicious</li>
 					<li>Grade: A</li>
-					<li>Colour: Red </li>
+					<li>Colour: Red</li>
 				</ul>
 			</div>
-</div>
+		</div>
+		<br> <br> <br> <br> <br> <br> 
+		<div class="package-gold">
+			<h3>Apple Ber</h3>
+			<div class="thumbnail">
+				<img src="images/appleber.jpg" alt="Thumbnail Image 1"
+					class="img-responsive">
+				<h5>supplier of Royal Delicious apple</h5>
+				<ul>
+					<li>Price: Negotiable</li>
+					<li>MOQ: 1 ton</li>
+					<li>Supply Ablility:15tonnes</li>
+					<li>variety: Fresh</li>
+					<li>Grade: A</li>
+					<li>Colour: Green</li>
+				</ul>
+			</div>
+		</div>
+		<br> <br> <br> <br> <br> <br> 
+		<div class="package-gold">
+			<h3>Apple-Washington</h3>
+			<div class="thumbnail">
+				<img src="images/applewashington.jpg" " alt="Thumbnail Image 1"
+					class="img-responsive">
+				<h5>supplier of Royal Delicious apple</h5>
+				<ul>
+					<li>Price: Negotiable</li>
+					<li>MOQ: 200kg</li>
+					<li>Supply Ablility: 15tonnes</li>
+					<li>variety: Apple-Washington</li>
+					<li>Grade: A</li>
+					<li>Colour: Red</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
 	<div class="row text-center hidden-xs"></div>
 	<nav class="text-center">
 		<!-- Add class .pagination-lg for larger blocks or .pagination-sm for smaller blocks-->
